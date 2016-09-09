@@ -1,1 +1,1 @@
-# Coursera.Getting_Cleaning_Data.Course_Project2
+# Coursera.Exploratory_Data_Analysis.Course_Project2
