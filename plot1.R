@@ -15,7 +15,7 @@ plot1 <- function()
   aggregate.data <- aggregate(Emissions ~ year, nei.file.data, sum)
   
   # graph the emission data, save file
-  barplot((aggregate.data$Emissions)/10^6, names.arg = aggregate.data$year, xlab="Year",
+  barplot((aggregate.data$Emissions)/10^6, names.arg = aggregate.data$year, xlab = "Year",
     ylab = "PM2.5 Emissions (10^6 Tons)", main = "Total PM2.5 Emissions From All US Sources")
   
   dev.copy(png, file = "plot1.png")
