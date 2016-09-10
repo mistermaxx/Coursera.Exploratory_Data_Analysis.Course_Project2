@@ -1,7 +1,7 @@
 # |*****************************************************************************
 # | Dwayne Macadangdang 9/9/2016
 # | Coursera: Exploratory Data Analysis
-# | Week 4 Programming Assignment
+# | Week 4 Programming Assignment: Plot 1
 
 plot1 <- function()
 {
