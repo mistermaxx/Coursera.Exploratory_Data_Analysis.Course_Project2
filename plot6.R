@@ -1,5 +1,5 @@
 # |*****************************************************************************
-# | Dwayne Macadangdang 9/10/2016
+# | Dwayne Macadangdang 9/11/2016
 # | Coursera: Exploratory Data Analysis
 # | Week 4 Programming Assignment: Plot 6
 
