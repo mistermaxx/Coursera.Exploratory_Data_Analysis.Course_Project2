@@ -9,7 +9,6 @@ plot2 <- function()
   
   # read in data from file
   nei.file.data <- readRDS("summarySCC_PM25.rds")
-  #scc.file.data <- readRDS("Source_Classification_Code.rds")
   
   # subset and aggregate total pm2.5 emissions for baltimore
   nei.baltimore.data <- nei.file.data[nei.file.data$fips == "24510",]
