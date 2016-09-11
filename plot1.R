@@ -9,7 +9,6 @@ plot1 <- function()
   
   # read in data from file
   nei.file.data <- readRDS("summarySCC_PM25.rds")
-  #scc.file.data <- readRDS("Source_Classification_Code.rds")
   
   # aggregate total pm2.5 emissions from all sources, years 1999, 2002, 2005 2008
   aggregate.data <- aggregate(Emissions ~ year, nei.file.data, sum)
